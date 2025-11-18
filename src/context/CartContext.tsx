@@ -4,10 +4,11 @@ import { createContext, useContext, useState } from "react";
 
 interface CartItem {
   title: string;
-  price: string; // "₹12,999"
+  price: string;
   image: string;
-  quantity: number; // NEW
+  quantity: number;
 }
+
 
 
 interface CartContextType {

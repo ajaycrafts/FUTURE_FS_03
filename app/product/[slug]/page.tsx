@@ -49,10 +49,12 @@ export default function ProductPage() {
     }
 
     addToCart({
-      title: product.title + ` (Size: ${selectedSize})`,
-      price: product.price,
-      image: mainImage,
-    });
+  title: product.title + ` (Size: ${selectedSize})`,
+  price: product.price,
+  image: mainImage,
+  quantity: 1,
+});
+
   };
 
   return (
